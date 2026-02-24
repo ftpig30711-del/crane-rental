@@ -183,14 +183,10 @@ export default function Home() {
                         <li>3. 現場照片</li>
                     </ul>
                 </div>
-                <div className="p-3 md:p-4 grid grid-cols-2 gap-3 md:gap-4 bg-white">
-                    <a href="tel:0932993568" className="flex flex-col items-center justify-center gap-1 bg-blue-600 text-white rounded-xl py-3 md:py-4 font-bold active:scale-95 transition-transform">
+                <div className="p-3 md:p-4 bg-white">
+                    <a href="tel:0932993568" className="flex flex-col items-center justify-center gap-1 bg-blue-600 text-white rounded-xl py-3 md:py-4 font-bold active:scale-95 transition-transform w-full">
                         <PhoneCall className="w-6 h-6" />
                         <span className="text-[15px] md:text-base">立即撥打</span>
-                    </a>
-                    <a href="line://ti/p/~0932993568" className="flex flex-col items-center justify-center gap-1 bg-[#06C755] text-white rounded-xl py-3 md:py-4 font-bold active:scale-95 transition-transform">
-                        <MessageCircle className="w-6 h-6" />
-                        <span className="text-[15px] md:text-base">加 LINE 評估</span>
                     </a>
                 </div>
             </div>
