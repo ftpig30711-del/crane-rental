@@ -39,6 +39,12 @@ export default function Home() {
                     <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
                         事前專業評估，排除現場潛在風險。高效率現場配合，降低溝通成本。
                     </p>
+                    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <a href="tel:0932993568" className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg md:text-xl transition-all shadow-lg hover:shadow-blue-600/30 active:scale-95">
+                            <PhoneCall className="w-6 h-6" />
+                            立即撥打電話
+                        </a>
+                    </div>
                 </div>
             </section>
 
